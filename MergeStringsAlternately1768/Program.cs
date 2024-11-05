@@ -4,19 +4,30 @@
     {
         public string MergeAlternately(string word1, string word2)
         {
-            string MergedWord = "";
-            int pointer = 0 , x = word1.Length, y = word2.Length;
+            //string MergedWord = "";
+            //int pointer = 0 , x = word1.Length, y = word2.Length;
 
-            while(pointer < x || pointer < y)
+            //while(pointer < x || pointer < y)
+            //{
+            //    if (pointer < x)
+            //        MergedWord += word1[pointer];
+            //    if (pointer < y)
+            //        MergedWord += word2[pointer];
+
+            //    pointer++;
+            //}
+            //return MergedWord;
+            int maxLength = Math.Max(word1.Length, word2.Length);
+            char[] merged = new char[word1.Length + word2.Length];
+
+            int k = 0;
+
+            for (int i = 0; i < maxLength; i++)
             {
-                if (pointer < x)
-                    MergedWord += word1[pointer];
-                if (pointer < y)
-                    MergedWord += word2[pointer];
-                
-                pointer++;
+                if(i<word1.Length) merged[k++] = word1[i];
+                if(i<word2.Length) merged[k++] = word2[i];
             }
-            return MergedWord;
+            return new string (merged);
         }
         static void Main(string[] args)
         {
