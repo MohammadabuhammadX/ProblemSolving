@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Search", "ProblemSol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeStringsAlternately1768", "MergeStringsAlternately1768\MergeStringsAlternately1768.csproj", "{A35EB158-113A-4C2F-A460-544C9DB03A2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestCommonDivisorOfStrings1071", "GreatestCommonDivisorOfStrings1071\GreatestCommonDivisorOfStrings1071.csproj", "{6FED33AD-2656-4694-A322-901F04779ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KidsWithTheGreatestNumberOfCandies1431", "KidsWithTheGreatestNumberOfCandies1431\KidsWithTheGreatestNumberOfCandies1431.csproj", "{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A35EB158-113A-4C2F-A460-544C9DB03A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A35EB158-113A-4C2F-A460-544C9DB03A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35EB158-113A-4C2F-A460-544C9DB03A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FED33AD-2656-4694-A322-901F04779ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FED33AD-2656-4694-A322-901F04779ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FED33AD-2656-4694-A322-901F04779ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FED33AD-2656-4694-A322-901F04779ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

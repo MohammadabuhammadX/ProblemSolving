@@ -1,4 +1,6 @@
-﻿namespace MergeStringsAlternately1768
+﻿using System.Text;
+
+namespace MergeStringsAlternately1768
 {
     internal class Program
     {
@@ -17,17 +19,32 @@
             //    pointer++;
             //}
             //return MergedWord;
-            int maxLength = Math.Max(word1.Length, word2.Length);
-            char[] merged = new char[word1.Length + word2.Length];
+            //int maxLength = Math.Max(word1.Length, word2.Length);
+            //char[] merged = new char[word1.Length + word2.Length];
 
-            int k = 0;
+            //int k = 0;
+
+            //for (int i = 0; i < maxLength; i++)
+            //{
+            //    if(i<word1.Length) merged[k++] = word1[i];
+            //    if(i<word2.Length) merged[k++] = word2[i];
+            //}
+            //return new string (merged);
+            var result = new StringBuilder();
+            int maxLength = Math.Max(word1.Length, word2.Length);
 
             for (int i = 0; i < maxLength; i++)
             {
-                if(i<word1.Length) merged[k++] = word1[i];
-                if(i<word2.Length) merged[k++] = word2[i];
+                if(i<word1.Length)
+                {
+                    result.Append(word1[i]);
+                }
+                if (i < word2.Length)
+                {
+                    result.Append(word2[i]);
+                }
             }
-            return new string (merged);
+            return result.ToString();
         }
         static void Main(string[] args)
         {
