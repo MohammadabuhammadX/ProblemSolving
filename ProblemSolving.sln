@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatestCommonDivisorOfStri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KidsWithTheGreatestNumberOfCandies1431", "KidsWithTheGreatestNumberOfCandies1431\KidsWithTheGreatestNumberOfCandies1431.csproj", "{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanPlaceFlower605", "CanPlaceFlower605\CanPlaceFlower605.csproj", "{BEBF5A3F-039C-4CB2-A88E-FB9AC5BA4DC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F34F8E5-832F-45E3-8C28-7C6102A96F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBF5A3F-039C-4CB2-A88E-FB9AC5BA4DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBF5A3F-039C-4CB2-A88E-FB9AC5BA4DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBF5A3F-039C-4CB2-A88E-FB9AC5BA4DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBF5A3F-039C-4CB2-A88E-FB9AC5BA4DC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
